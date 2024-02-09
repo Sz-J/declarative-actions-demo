@@ -6,6 +6,7 @@
         <designer_state/>
         <label>Podcast Episode Playbook</label>
         <name>podcast_episode_playbook</name>
+        <restartable/>
         <run_on_pad_engine>false</run_on_pad_engine>
         <schema_version>1</schema_version>
         <snapshot/>
@@ -31,6 +32,7 @@
         <designer_state/>
         <label>Podcast Episode Playbook</label>
         <name>podcast_episode_playbook</name>
+        <restartable/>
         <run_on_pad_engine>false</run_on_pad_engine>
         <schema_version>1</schema_version>
         <snapshot/>
@@ -59,6 +61,7 @@
         <name>stage_1</name>
         <order>1</order>
         <process_definition display_value="Podcast Episode Playbook">c40b419947ef31109387b979316d4381</process_definition>
+        <restart_rule/>
         <start_rule display_value="Immediately">b823830967fc41ddb84959d97897b1ae</start_rule>
         <start_rule_vars/>
         <sys_created_by>admin</sys_created_by>
@@ -86,6 +89,7 @@
         <order>1</order>
         <outputs/>
         <process_definition display_value="Podcast Episode Playbook">c40b419947ef31109387b979316d4381</process_definition>
+        <restart_rule/>
         <start_rule display_value="Immediately">ef8ab8c0a3f04bceb117263f51401070</start_rule>
         <start_rule_vars/>
         <swim_lane/>
@@ -558,8 +562,6 @@
         <table>var__m_sys_hub_flow_input_2b8b42e31b630010affd0e55cc4bcbe9</table>
         <value/>
     </sys_element_mapping>
-    <sys_pd_swim_lane action="delete_multiple" query="process_definition=c40b419947ef31109387b979316d4381"/>
-    <sys_pd_activity_m2m_app_object action="delete_multiple" query="activity.process_definition=c40b419947ef31109387b979316d4381"/>
     <sys_pd_snapshot action="delete_multiple" query="sys_id="/>
     <sys_json_chunk action="delete_multiple" query="document_id="/>
     <sys_pd_snapshot_chunk action="delete_multiple" query="document_id="/>
